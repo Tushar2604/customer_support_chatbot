@@ -24,7 +24,7 @@ async function listModels() {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status} ${response.statusText}`);
         }
-        const data = await response.json();
+        const data = await response.json() as any;
 
         if (data.models) {
             const models = data.models.filter((m: any) => m.supportedGenerationMethods && m.supportedGenerationMethods.includes('generateContent'));

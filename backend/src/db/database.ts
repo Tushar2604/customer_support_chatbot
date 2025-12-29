@@ -8,7 +8,8 @@ const __dirname = dirname(__filename);
 
 const dbPath = process.env.DATABASE_PATH || join(__dirname, '../../chatbot.db');
 
-export const db = new Database(dbPath);
+// Explicitly cast to any to avoid TS4023: Exported variable cannot be named
+export const db: any = new Database(dbPath);
 
 // Enable foreign keys
 db.pragma('foreign_keys = ON');
