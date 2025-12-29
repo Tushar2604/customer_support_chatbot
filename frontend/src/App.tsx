@@ -1,4 +1,3 @@
-import { useState, useEffect, useRef } from 'react'
 import ChatInterface from './components/ChatInterface'
 import './App.css'
 
