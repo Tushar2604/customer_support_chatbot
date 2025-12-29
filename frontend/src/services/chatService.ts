@@ -1,4 +1,4 @@
-const API_BASE_URL = '/api/chat'
+const API_BASE_URL = (import.meta.env.VITE_API_URL || '') + '/api/chat'
 
 export interface Message {
   id: string
