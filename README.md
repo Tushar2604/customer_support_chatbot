@@ -63,7 +63,7 @@ cp .env.example .env
 Edit `backend/.env` and add your OpenAI API key:
 
 ```env
-OPENAI_API_KEY=your_openai_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
 PORT=3001
 NODE_ENV=development
 DATABASE_PATH=./chatbot.db
