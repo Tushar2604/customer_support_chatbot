@@ -1,0 +1,10 @@
+.chat-interface {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 120px);
+  overflow: hidden;
+}
+
+
+
+

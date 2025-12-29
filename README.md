@@ -29,7 +29,7 @@ A full-stack web application that simulates a customer support chat where an AI 
 ## Prerequisites
 
 - Node.js 18+ and npm
-- OpenAI API key ([Get one here](https://platform.openai.com/api-keys))
+- OpenAI API key ([Get one here](https://aistudio.google.com/app/))
 
 ## Setup Instructions
 
